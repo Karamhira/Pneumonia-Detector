@@ -9,4 +9,19 @@ Utilized Keras for training the CNN model, Flask serves as the backend framework
 
 1. Install the Python dependencies:
    ```bash
+   cd ./Model/backend
    pip install -r requirements.txt
+2. Install the Vue.js Dependences:
+   ```bash
+   cd ./Model/frontend
+   npm install
+## Running Instructions
+
+1. Start the flask:
+   ```bash
+   cd ./Model/backend
+   flask run
+2. Start Vue.js Dependences:
+   ```bash
+   cd ./Model/frontend
+   npm run dev
